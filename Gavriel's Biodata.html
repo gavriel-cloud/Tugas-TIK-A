@@ -1,0 +1,84 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>My Biodata Layout</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            display: flex;
+            justify-content: center;
+            margin-top: 20px;
+            background-color: #fdf6f9;
+        }
+        .container {
+            width: 100%;
+            max-width: 900px;
+        }
+        .box {
+            border: 2px solid #FD7979;
+            padding: 20px;
+            text-align: center;
+            box-sizing: border-box;
+            border-radius: 0;
+            margin: 0;
+            background-color: #FFCDC9;
+            font-weight: bold;
+            color: #1B211A;
+            box-shadow: 0px 4px 8px rgba(0,0,0,0.1);
+        }
+        .row {
+            display: flex;
+            width: 100%;
+        }
+        #biodata {
+            width: 100%;
+            background-color: #FDACAC;
+            height: 80px; /* dibuat lebih ramping */
+            display: flex;
+            align-items: center;
+            justify-content: center;
+        }
+        #foto-profil {
+            width: 50%;
+            background-color: #FDACAC;
+            height: 255px;
+        }
+        #deskripsi {
+            width: 50%;
+            background-color: #FDACAC;
+            height: 255px;
+        }
+        #ig { background-color: #FDACAC; }
+        #hobi { background-color: #FDACAC; }
+        #games { background-color: #FDACAC; }
+
+        #biodata { width: 100%; }
+        #foto-profil { width: 33.3%; }
+        #deskripsi { width: 66.7%; }
+        #ig, #hobi, #games { width: 33.3%; }
+    </style>
+</head>
+<body>
+    <div class="container box" style="padding:10px;">
+
+        <div id="biodata" class="box">GAVRIEL ARTHUR'S BIODATA</div>
+
+        <div class="row">
+            <div id="foto-profil" class="box">
+    <img src="https://drive.google.com/file/d/1oo8qHPC5CT4jU3KM13TC2cGYc6vpbEqT/view?usp=drivesdk" alt="PROFILE PICTURE" style="width:100%; height:auto; border-radius:10px;">
+</div>
+
+            <div id="deskripsi" class="box">SHORT DESCRIPTION<br><p style="font-weight:normal; font-size:14px;">Halo yuk kenalan sama aku, namaku Gavriel. Aku adalah anak pertama dari 2 bersaudara. Aku bersekolah di SMAK Santo Stanislaus, dan sekarang aku kelas 12. Aku sangat senang bersekolah di sini, banyak teman yang ramah, baik. Aku di SMA ini mengambil mapel peminatan ekonomi, sosiologi, matematika lanjut, dan TIK.Semuanya seru sih sebenernya. OK, Itu aja deh perkenalan singkat dari aku. See you!</p></div>
+        </div>
+
+        <div class="row">
+            <div id="ig" class="box">INSTAGRAM<br><p style="font-weight:normal; font-size:14px;">@gavriel_arthur_t</p></div>
+            <div id="hobi" class="box">HOBBY<br><p style="font-weight:normal; font-size:14px;">Bermain game dan nonton film.</p></div>
+            <div id="games" class="box">GAMES<br><p style="font-weight:normal; font-size:14px;">Mobile Legend dan Roblox.</p></div>
+        </div>
+
+    </div>
+</body>
+</html>
